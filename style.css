@@ -58,24 +58,29 @@ h1::before{
     padding: 50px;
 }
 
+img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+img:nth-child(2){
+    width: 650px;
+    border-radius: 10%;
+    box-shadow: 0 3px 5px rgb(15, 15, 15);
+}
+img:nth-child(3){
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 0 3px 5px rgb(15, 15, 15);
+}
+
 div > img {
     border-radius: 50px;
-    width: 50%;
+    width: 650px;
     height: auto;
     align-content: center;
 }
 
-.image{
-    width: 650px;
-    min-width: auto;
-    height: auto;
-}
-
-.image .img{
-    width: 650px;
-    min-width: auto;
-    height: auto;
-}
 
 .container .contenido{
     text-align: justify;
