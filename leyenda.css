@@ -55,18 +55,25 @@ h1::before{
 .container .leyenda{
     background-color: rgba(237, 112, 170, 0.901);
     font-size: 22px;
-    width: 730px;
-    height: 500px;
+    width: 700px;
+    height: auto;
     align-items: center;
     border-radius: 7%;
 }
 
-.imagen .imagenRedonda{
+.imagenRedonda{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+    height: auto;
+    min-width: auto;
     border-radius: 10%;
 }
 
-#quote{
+#ocultarQuote{
     font-family: 'Edu SA Beginner', cursive;
+    display:none;
 }
 
 footer p{
