@@ -67,7 +67,7 @@ h1::before{
     flex-wrap: wrap;
     max-width: 600px;
     height: auto;
-    min-width: auto;
+    min-width: 50px;
     border-radius: 10%;
 }
 
