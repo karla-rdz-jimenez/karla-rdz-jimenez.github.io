@@ -47,7 +47,7 @@ h2{
     color: rgb(122, 77, 246);
     font-family: cursive,;
     font-size: 32px;
-    text-align: justify;
+    text-align: center;
 }
 
 .container{
@@ -102,13 +102,12 @@ h2{
 
 .contenido-slider > img{
     width: 800px;
-    display: flex;
-    flex-direction: row;
+    /*display: flex;
     flex-wrap: wrap;
     flex-basis: 50%;
     max-width: 800px;
     min-width: 300px;
-    height: auto;
+    height: auto;*/
     border-radius: 20%;
 }
 
@@ -129,30 +128,30 @@ footer p{
 
 @media screen and (max-width:900px) {
     .contenido-slider > img{
-        width: 250px;
+        width: 100px;
     }
 
     .contenido-slider > div{
-        width: 40%;
+        width: 60%;
     }
 
     .contenido-slider h2{
-        font-size: 17px;
+        font-size: 13px;
     }
 
     .contenido-slider p{
-        font-size: 15px;
+        font-size: 10px;
     }
     
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:100px) {
     .contenido-slider > img{
         flex-direction: column-reverse;
     }
 
     .contenido-slider > div{
-        width: 80%;
+        width: 60%;
     }
     
 }
