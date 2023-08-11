@@ -44,6 +44,7 @@ h1::before{
 }
 
 .container{
+    width: 100vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -55,10 +56,16 @@ h1::before{
 .container .leyenda{
     background-color: rgba(237, 112, 170, 0.901);
     font-size: 22px;
-    width: 700px;
+    width: 600px;
     height: auto;
     align-items: center;
     border-radius: 7%;
+}
+
+img{
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 0 3px 5px rgb(15, 15, 15);
 }
 
 .imagenRedonda{
@@ -67,7 +74,6 @@ h1::before{
     flex-wrap: wrap;
     max-width: 600px;
     height: auto;
-    border-radius: 10%;
 }
 
 #ocultarQuote{
