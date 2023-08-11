@@ -128,19 +128,19 @@ footer p{
 
 @media screen and (max-width:900px) {
     .contenido-slider > img{
-        width: 100px;
+        width: 250px;
     }
 
     .contenido-slider > div{
-        width: 60%;
+        width: 50%;
     }
 
     .contenido-slider h2{
-        font-size: 13px;
+        font-size: 17px;
     }
 
     .contenido-slider p{
-        font-size: 10px;
+        font-size: 15px;
     }
     
 }
@@ -151,7 +151,7 @@ footer p{
     }
 
     .contenido-slider > div{
-        width: 60%;
+        width: 80%;
     }
     
 }
