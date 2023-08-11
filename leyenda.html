@@ -1,59 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="leyenda.css">
-    <script defer src="/main.js" ></script>
-    <title>Leyenda</title>
-</head>
-<body background="./imagenes/fondo.jpeg">
-    <header>
-        <div>
-            <img src="./imagenes/logo.png" alt="Logo" width="120px" height="120px">
-        </div>
-    <nav>
-        <button class="item"><a href="index.html">Inicio</a></button>
-        <button class="item"><a href="leyenda.html">Leyenda de su origen</a></button>
-        <button class="item"><a href="tipos.html">Tipos de Ajolotes</a></button>
-        <button class="item"><a href="habitat.html">Hábitat de los Ajolotes</a></button>
-        <button class="item"><a href="datosRandom.html">Datos Curiosos</a></button> 
-    </nav>
-    </header>
+header{
+    background-color: rgb(236, 188, 236, 0.7);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    <section>
-        <h1>La leyenda de su origen</h1>
-        <div class="container">
-            <div class="imagen">
-                <img src="./imagenes/xolotl.jpeg" class="imagenRedonda" alt="Leyenda1" width="500px"
-                height= "500px">
-            </div>
-            <div class="leyenda">
-                <h2>La leyenda de Xólotl</h2>
-                <p>
-                    Cuenta la leyenda que Xólotl, hermano de Quetzalcóatl, quería evitar ser sacrificado a cualquier precio. Por tal motivo, este dios, del fuego y el relámpago, se transformó en maíz y luego en maguey para evitar ser descubierto. A pesar de ello, estos intentos no fueron suficientes para pasar desapercibido, por lo que decidió refugiarse en el agua y ahí fue cuando tomo las forma del ajolote...
-                </p>
-                <div id="quote">
-                    <p>
-                        “Cuando Quetzalcóatl encontró a Xólotl recapacitó y le dijo: Como te negaste a morir sacrificado para dar vida a otro elemento, toda tu vida permanecerás aquí, pero el día que tu elemento, el agua, ya no sirva, desaparecerás de la faz de la tierra junto a la raza humana."
-                    </p>
-                    <p></p>
-                </div>
-                <button onclick='muestra_oculta("quote")' class="btn btn-primary" form="quote">-</button>
-            </div>
-            <div class="imagen">
-                <img src="./imagenes/leyenda-xolotl.jpeg" class="imagenRedonda" alt="Leyenda2" width="600px"
-                height= "500px">
-            </div>
-            <div class="imagen">
-                <img src="./imagenes/axol.jpeg" class="imagenRedonda" alt="Leyenda3" width="630px" height= "400px">
-            </div>
-        </div>
-    </section>
-    <footer>
-        <p>Milo, A. (17 de agosto de 2022). Regeneración y supervivencia: así vive el ajolote en el último hábitat acanalado de México - National Geographic en Español. National Geographic En Español. <br>
-        Consultado el 07 de agosto de 2023 en https://www.ngenespanol.com/animales/ajolote-anfibio-endemico-valle-de-mexico/</p>
-    </footer>
-</body>
-</html>
+button{
+    background-color: rgb(243, 119, 245);
+    border-radius: 100px;
+    font-size: 20px;
+    border-color: rgb(243, 119, 245);
+}
+
+button:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.item{
+    width: 230px;
+    height: 100px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+h1{
+    background-color: rgba(142, 249, 242, 0.849);
+    color: rgb(244, 34, 244);
+    font-family: cursive;
+    font-size: 30px;
+}
+h1:hover{
+    color: salmon
+}
+h1::before{
+    content: "✨";
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+}
+
+.container .habitat{
+    background-color: rgba(170, 246, 215, 0.834);
+    font-size: 22px;
+    width: 750px;
+    min-width: 50px;
+    height: auto;
+    align-items: center;
+    border-radius: 7%;
+
+}
+
+.container .habitat:nth-child(4){
+    background-color: rgba(208, 170, 245, 0.89);
+    font-size: 22px;
+    width: auto;
+    height: auto;
+    align-items: center;
+    width: 750px;
+    min-width: 50px;
+    height: auto;
+}
+
+.img{
+    width: 550px;
+    height: 315px;
+    border-radius: 100px;
+    min-width: auto;
+    height: auto;
+}
+.img2{
+    width: 700px;
+    height: 450px;
+    border-radius: 800px;
+    min-width: 50px;
+    height: auto;
+}
+
+footer p{
+    background-color: rgb(236, 188, 236, 0.7);;
+    font-size: medium;
+    color: #020202;
+    text-align: center;
+}
