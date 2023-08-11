@@ -64,8 +64,8 @@ img{
 }
 
 img:nth-child(2){
-    width: 650px;
-    border-radius: 10%;
+    width: 100%;
+    border-radius: 0%;
     box-shadow: 0 3px 5px rgb(15, 15, 15);
 }
 img:nth-child(3){
@@ -76,7 +76,7 @@ img:nth-child(3){
 
 div > img {
     border-radius: 50px;
-    width: 650px;
+    width: 600px;
     height: auto;
     align-content: center;
 }
