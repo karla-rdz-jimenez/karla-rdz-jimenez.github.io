@@ -51,8 +51,8 @@ h1::before{
     flex-basis: 50%;
     text-align: justify;
     padding: 50px;
-    align-items: center;
-    align-content: center;
+    align-items:flex-start;
+    align-content: flex-start;
 }
 
 
