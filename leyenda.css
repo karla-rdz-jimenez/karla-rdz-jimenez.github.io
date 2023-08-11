@@ -58,6 +58,11 @@ h1::before{
     width: 730px;
     height: 500px;
     align-items: center;
+    border-radius: 7%;
+}
+
+.imagen .imagenRedonda{
+    border-radius: 10%;
 }
 
 #quote{
