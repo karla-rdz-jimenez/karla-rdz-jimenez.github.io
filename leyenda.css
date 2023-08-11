@@ -67,7 +67,6 @@ h1::before{
     flex-wrap: wrap;
     max-width: 600px;
     height: auto;
-    min-width: 50px;
     border-radius: 10%;
 }
 
@@ -81,4 +80,16 @@ footer p{
     font-size: medium;
     color: #020202;
     text-align: center;
+}
+
+@media screen and (max-width:100px) {
+    .imagenRedonda{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100px;
+        height: auto;
+        border-radius: 10%;
+    }
+    
 }
