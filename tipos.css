@@ -102,13 +102,7 @@ h2{
 
 .contenido-slider > img{
     width: 800px;
-    /*display: flex;
-    flex-wrap: wrap;
-    flex-basis: 50%;
-    max-width: 800px;
-    min-width: 300px;
-    height: auto;*/
-    border-radius: 20%;
+    border-radius: 70%;
 }
 
 .contenido-slider > div{
